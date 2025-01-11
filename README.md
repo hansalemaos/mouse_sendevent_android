@@ -42,17 +42,17 @@ Optional arguments:
 		The y coodinate start of the action (must be positive)
         If not passed, the current mouse position will be used
 	--action
-		0 = moves to --x and --y
-		1 = moves to --x and --y and then performs a left click
+	0 = moves to --x and --y
+	1 = moves to --x and --y and then performs a left click
         2 = moves to --x and --y and then performs a right click
-		3 = moves to --x and --y and then performs a middle click   
+	3 = moves to --x and --y and then performs a middle click   
         4 = left click at current mouse position (visible using getevent -lp)
         5 = right click at current mouse position (visible using getevent -lp)
         6 = middle click at current mouse position (visible using getevent -lp) 
         7 = moves to --x and --y and scrolls down at x and y
-		8 = scrolls down at current mouse position (visible using getevent -lp)
-		9 = moves to --x and --y and scrolls up at x and y
-		10 = scrolls up at current mouse position (visible using getevent -lp)
+	8 = scrolls down at current mouse position (visible using getevent -lp)
+	9 = moves to --x and --y and scrolls up at x and y
+	10 = scrolls up at current mouse position (visible using getevent -lp)
     --min_x_variation; --max_x_variation; --min_y_variation; --max_y_variation
         To make the mouse/swipe movement more natural (not 100% linear)
         These are not real pixels, but calculated in terms of the linux devices values (usually 32767 or 65535)
